@@ -256,6 +256,20 @@ header nav a {
     font-size: 2rem;
   }
 }
+#title-header {
+  font-size: 10rem;
+  text-align: center;
+  width: 100%;
+  background-color: #f1faee;
+  color: #e63946;
+  border: 5px solid #a8dadc;
+  margin: 5% auto;
+}
+@media (max-width: 500px) {
+  #title-header {
+    font-size: 5.5rem;
+  }
+}
 section {
   display: flex;
   flex-direction: row;
