@@ -237,7 +237,7 @@ header nav a {
     margin: 0 auto;
   }
 }
-.titleSection .buttons button {
+.titleSection .buttons #button-link {
   font-size: 2rem;
   padding: 10% auto;
   border-radius: 20px;
@@ -245,9 +245,10 @@ header nav a {
   border: 2px dotted #e63946;
   background-color: #a8dadc;
   color: #1d3557;
+  text-decoration: none;
 }
 @media (max-width: 500px) {
-  .titleSection .buttons button {
+  .titleSection .buttons #button-link {
     width: 50%;
     height: auto;
     margin: 2% auto;
