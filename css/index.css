@@ -215,7 +215,7 @@ header nav a {
 }
 @media (max-width: 500px) {
   .titleSection h1 {
-    font-size: 7rem;
+    font-size: 6rem;
     margin: 10% auto;
     text-align: center;
   }
